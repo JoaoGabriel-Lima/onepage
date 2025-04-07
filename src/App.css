@@ -1,0 +1,17 @@
+#root {
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+}
+
+.bentoGrid {
+  display: grid;
+  /* 3 columns (second collum 2fr), 3 rows */
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+
+  gap: 1rem;
+}
+
+.bentoGrid > section {
+  border-radius: 18px;
+}
