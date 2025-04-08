@@ -6,7 +6,7 @@ import YellowCard from "./core/yellow-card/yellow-card";
 
 function App() {
   return (
-    <section className="w-full h-full bentoGrid max-2xl:flex ">
+    <section className="w-full h-full bentoGrid grid max-2xl:flex flex-col">
       <PinkCard />
       <GreenCard />
       <YellowCard />
