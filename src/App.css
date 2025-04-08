@@ -14,3 +14,10 @@
 .bentoGrid > section {
   border-radius: 18px;
 }
+
+/* if screen height is less than 1000px, add max-height: 200px to #wallphotos  */
+@media (max-height: 900px) {
+  #wallphotos {
+    max-height: 240px;
+  }
+}

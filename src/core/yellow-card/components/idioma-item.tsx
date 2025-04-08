@@ -11,7 +11,7 @@ function IdiomItemYellowCard({
 }: Readonly<InfoItemProps>) {
   return (
     <>
-      <div className="w-full justify-between  flex items-center py-1">
+      <div className="w-full justify-between  flex items-center py-1 gap-3">
         <span>{idioma}</span>
         <span className="font-medium rounded-full px-2 text-sm py-0.5 bg-black text-white">
           {nivel}

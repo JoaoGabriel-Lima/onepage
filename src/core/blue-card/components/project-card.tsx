@@ -19,7 +19,7 @@ export default function ProjectCard(props: Readonly<ProjectCardProps>) {
       ></button>
       <div className="flex flex-col p-1 px-1.5 gap-0 pb-4">
         <span className="text-white font-semibold ">{props.title}</span>
-        <span className="text-white text-xs font-light">
+        <span className="text-white text-xs font-light text-pretty">
           {props.description}
         </span>
       </div>

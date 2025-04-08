@@ -20,18 +20,24 @@ export default function BlueCard() {
         <div className="w-full gap-2 flex h-full">
           <ProjectCard
             title="DAlianças"
-            description="Sistema de gestão de alianças"
-            image="/projects/dalianças.png"
+            description="Sistema completo de e-commerce e gerenciamento"
+            image="/projects/1.png"
             onClick={() =>
-              window.open("https://dalianças.vercel.app", "_blank")
+              window.open(
+                "https://joaolima.vercel.app/projects/daliancas",
+                "_blank"
+              )
             }
           />
           <ProjectCard
-            title="DAlianças"
-            description="Sistema de gestão de alianças"
-            image="/projects/dalianças.png"
+            title="Rastros Perdidos"
+            description="Jogo autoral 16-bit desenvolvido em Python"
+            image="/projects/2.png"
             onClick={() =>
-              window.open("https://dalianças.vercel.app", "_blank")
+              window.open(
+                "https://joaolima.vercel.app/projects/rastros_perdidos",
+                "_blank"
+              )
             }
           />
         </div>

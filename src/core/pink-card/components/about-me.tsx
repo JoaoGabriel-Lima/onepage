@@ -20,6 +20,15 @@ export default function AboutMePinkCard() {
           software.
         </span>
       </p>
+      <p
+        style={{
+          marginTop: "15px",
+        }}
+        className=" text-justify leading-snug text-[15px] font-medium"
+      >
+        Sou apaixonado por ensinar, aprender e compartilhar conhecimento, além
+        de dedicar tempo aos jogos e momentos com amigos e família.
+      </p>
     </div>
   );
 }

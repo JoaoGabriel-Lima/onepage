@@ -7,7 +7,13 @@ export default function GreenCard() {
         <span className="text-white text-2xl font-semibold">
           Minhas Vivências e Aprendizados
         </span>
-        <div className="w-full flex-1 p-4 gap-2 border-3 border-white/[0.18] bg-[#3D8D75] rounded-[12px]"></div>
+        <div className="w-full flex-1 flex-row p-2 gap-2 flex border-3 border-white/[0.18] bg-[#3D8D75] rounded-[12px]">
+          <img
+            src="/vivencias/all3.png"
+            id="wallphotos"
+            className="rounded-lg h-full w-full object-cover"
+          />
+        </div>
       </section>
       <section className="bg-[#ffffff] px-6 py-5 flex-1 rounded-[12px] flex flex-col gap-2">
         <span className="text-black  text-xl font-bold">
@@ -71,7 +77,7 @@ export default function GreenCard() {
               subTitle: "1° Lumx Hackathon ETH Rio 2024",
               showBottomLine: false,
               description:
-                "> Na EthereumRio 2024, fui desenvolvedor no time vencedor (LumxHack + Scroll) com o Freedomchains, solução Web3 que integra blockchain e IA para transparência no sistema carcerário. Desenvolvi arquitetura de registros imutáveis de comportamento de presos, dashboards em tempo real e ZK-proofs para privacidade (LGPD). Premiada (US$6k), destaquei uso ético de Web3 e hoje em discussão para prototipagem governamental.",
+                "> Na EthereumRio 2024, fui desenvolvedor no time vencedor (LumxHack + Scroll) com o Freedomchains, solução Web3 que integra blockchain e IA para transparência no sistema carcerário. Desenvolvi arquitetura de registros imutáveis de comportamento de presos, dashboards em tempo real e ZK-proofs para privacidade (LGPD).",
             }}
           >
             <WorkExperience.Tag

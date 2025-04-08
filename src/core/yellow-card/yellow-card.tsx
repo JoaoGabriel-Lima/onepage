@@ -1,3 +1,4 @@
+import { FaLaptopCode, FaTree } from "react-icons/fa";
 import { YellowCardIdiomaItem } from "./components/idioma-item";
 import { YellowCardInfoItem } from "./components/info-item";
 
@@ -31,22 +32,34 @@ export default function YellowCard() {
             <YellowCardIdiomaItem.InfoItem idioma="Inglês" nivel="C1" />
             <YellowCardIdiomaItem.InfoItem idioma="Espanhol" nivel="A2" />
             <YellowCardIdiomaItem.InfoItem
-              idioma="Português"
+              idioma="Javascript"
               nivel="Nativo"
               withLine={false}
             />
           </YellowCardIdiomaItem.Root>
         </div>
         <div className=" flex-grow bg-[#eb5a35] rounded-[18px] aspect-square h-full p-2.5">
-          <div className="rounded-[10px] relative flex-1 h-full outline-3 outline-black flex justify-center  items-center">
-            <div className="flex flex-col text-center pb-2 ">
-              <span className="text-3xl font-extrabold">????</span>
-              <span className="font-semibold">Lorem Ipsum</span>
+          <div className="rounded-[10px] relative flex-1 h-full outline-3 outline-black flex justify-center  items-center p-3">
+            <div className="flex flex-col text-center pb-8 ">
+              <div className="flex gap-2 justify-center items-end">
+                <FaTree className="text-[#4f1e13]" size={22} />
+                <FaLaptopCode
+                  className="text-[#4f1e13]"
+                  style={{
+                    marginBottom: "2px",
+                  }}
+                  size={28}
+                />
+                <FaTree className="text-[#4f1e13]" size={22} />
+              </div>
+              <span className="font-semibold leading-tight text-pretty">
+                Meu interesse pela tecnologia começou aos 8 anos, indo no Centro
+                de Inclusão Digital de Cachoeiras de Macacu
+              </span>
             </div>
             <div className="absolute bottom-[5px] w-full flex justify-center items-center ">
-              <span className="text-xs text-center">
-                Fazendo <span className="font-bold">100 coisas</span> ao mesmo
-                tempo
+              <span className="text-xs text-center text-pretty">
+                (e comecei a programar logo em seguida)
               </span>
             </div>
           </div>
