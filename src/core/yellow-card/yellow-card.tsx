@@ -37,7 +37,7 @@ export default function YellowCard() {
             <YellowCardIdiomaItem.InfoItem idioma="Inglês" nivel="C1" />
             <YellowCardIdiomaItem.InfoItem idioma="Espanhol" nivel="A2" />
             <YellowCardIdiomaItem.InfoItem
-              idioma="Javascript"
+              idioma="Português"
               nivel="Nativo"
               withLine={false}
             />
