@@ -18,11 +18,19 @@ export default function PinkCard() {
         </div>
         <img
           alt="Estrela 1"
+          style={{
+            // wiggle animation
+            animation: "wiggle 1s ease-in-out infinite",
+          }}
           src="/estrelas/estrela1.svg"
           className="absolute w-[29px] right-[9%] top-[25%] animate-pulse"
         />
         <img
           alt="Estrela 2"
+          style={{
+            // wiggle animation
+            animation: "wiggle 1.5s ease-in-out infinite",
+          }}
           src="/estrelas/estrela2.svg"
           className="absolute w-[34px] left-[9%] top-[35%] animate-pulse"
         />

@@ -5,8 +5,13 @@ import { YellowCardInfoItem } from "./components/info-item";
 export default function YellowCard() {
   return (
     <section className=" flex flex-col">
-      <div className="bg-[#fdbf45] border-b-3 border-dashed w-full p-3 pt-3.5 px-5 rounded-[18px]">
+      <div className="bg-[#fdbf45] relative border-b-3 border-dashed w-full p-3 pt-3.5 px-5 rounded-[18px]">
         <h1 className="text-xl font-semibold">Sobre mim</h1>
+        <img
+          alt="Entalhe de borda"
+          src="/estrelas/corner.svg"
+          className="absolute top-1 right-1 w-[14px]"
+        />
       </div>
       <YellowCardInfoItem.Root>
         <YellowCardInfoItem.InfoItem title="Idade" value="18 anos" />

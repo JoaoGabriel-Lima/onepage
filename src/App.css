@@ -21,3 +21,16 @@
     max-height: 240px;
   }
 }
+
+/* create wiggle animation */
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(12deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
+}

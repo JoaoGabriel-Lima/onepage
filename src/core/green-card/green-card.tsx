@@ -9,6 +9,7 @@ export default function GreenCard() {
         </span>
         <div className="w-full flex-1 flex-row p-2 gap-2 flex border-3 border-white/[0.18] bg-[#3D8D75] rounded-[12px]">
           <img
+            alt="Vivências"
             src="/vivencias/all3.png"
             id="wallphotos"
             className="rounded-lg h-full w-full object-cover"
